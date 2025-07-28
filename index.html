@@ -85,17 +85,34 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section id="inicio" class="hero-bg bg-cover bg-center py-32 text-white" style="background-image: url('https://i.ibb.co/nsXkLTxm/image.png')>
-        <div class="container mx-auto px-6 text-center">
-            <h1 class="text-4xl md:text-6xl font-bold mb-6">Terreno en Venta</h1>
-            <p class="text-xl md:text-2xl mb-8">Oportunidad única en excelente ubicación</p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="#contacto" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300">Solicitar Información</a>
-                <a href="#galeria" class="bg-white hover:bg-gray-100 text-green-700 px-8 py-3 rounded-lg font-semibold transition duration-300">Ver Galería</a>
-            </div>
-        </div>
-    </section>
+<!-- Hero Section -->
+<section id="inicio" class="relative py-32 text-white">
+  <!-- Background Image -->
+  <div class="absolute inset-0 bg-cover bg-center z-0" style="background-image: url('https://i.ibb.co/SXBxjDs4/Sin-t-tulo.jpg');"></div>
+  
+  <!-- Dark Overlay (20% opacity) -->
+  <div class="absolute inset-0 bg-black opacity-20 z-0"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 container mx-auto px-6 text-center">
+    <h1 class="text-4xl md:text-6xl font-bold mb-6 shadow-lg" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);">
+      Terreno en Venta
+    </h1>
+    <p class="text-xl md:text-2xl mb-8" style="text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);">
+      Oportunidad única en excelente ubicación
+    </p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a href="#contacto" class="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-lg font-semibold transition duration-300">
+        Solicitar Información
+      </a>
+      <a href="#galeria" class="bg-white hover:bg-gray-100 text-green-700 px-8 py-3 rounded-lg font-semibold transition duration-300">
+        Ver Galería
+      </a>
+    </div>
+  </div>
+</section>
+
+
 
     <!-- Quick Facts -->
     <section class="bg-white py-12">
@@ -171,46 +188,29 @@
         </div>
     </section>
 
-    <!-- Video Section -->
-    <section id="videos" class="py-16 bg-white">
-        <div class="container mx-auto px-6">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Recorrido Virtual</h2>
-            
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <!-- Video principal -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">Tour Completo</h3>
-                    <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M66U_DuMCS8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href=“https://xn--utanucln-g0a.se/">Lån utan uc</a></iframe></p>
-                </div>
-                
-                <!-- Video secundario -->
-                <div>
-                    <h3 class="text-xl font-semibold mb-4">Vista Aérea</h3>
-                    <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M66U_DuMCS8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href=“https://xn--utanucln-g0a.se/">Lån utan uc</a></iframe></p>
-                </div>
-            </div>
-            
-            <!-- Miniaturas de videos adicionales -->
-            <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
-                <div class="cursor-pointer">
-                    <div class="video-wrapper rounded-lg overflow-hidden shadow-md">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M66U_DuMCS8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href=“https://xn--utanucln-g0a.se/">Lån utan uc</a></iframe></p>
-                </div>
-                <div class="cursor-pointer">
-                    <div class="video-wrapper rounded-lg overflow-hidden shadow-md">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M66U_DuMCS8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href=“https://xn--utanucln-g0a.se/">Lån utan uc</a></iframe></p></div>
-                    <p class="mt-2 text-sm text-center">Medidas exactas</p>
-                </div>
-                <div class="cursor-pointer">
-                    <div class="video-wrapper rounded-lg overflow-hidden shadow-md">
-<p><iframe width="560" height="315" src="https://www.youtube.com/embed/M66U_DuMCS8" title="" frameBorder="0"   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowFullScreen><br>Powered by <a href="https://youtubeembedcode.com">embed youtube video</a> and <a href=“https://xn--utanucln-g0a.se/">Lån utan uc</a></iframe></p></div>
-                    <p class="mt-2 text-sm text-center">Zonas linderas</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Video Section -->
+<section id="videos" class="py-16 bg-white">
+  <div class="container mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Recorrido Virtual</h2>
+
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo</h3>
+      <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
+        <iframe 
+          width="100%" 
+          height="500" 
+          src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
+          title="Recorrido Virtual" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerpolicy="strict-origin-when-cross-origin" 
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <!-- Features Section -->
     <section id="caracteristicas" class="py-16 bg-gray-50">
