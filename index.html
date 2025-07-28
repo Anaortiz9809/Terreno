@@ -61,29 +61,35 @@
     </style>
 </head>
 <body class="bg-gray-50">
-    <!-- Header/Navbar -->
-    <header class="sticky top-0 z-50 bg-white shadow-md">
-        <div class="container mx-auto px-6 py-3">
-            <div class="flex items-center justify-between">
-                <div class="flex items-center">
-                    <img src="https://i.ibb.co/nsXkLTxm/image.png" alt="Logo de la inmobiliaria" class="h-10 w-10 rounded-full">
-                    <span class="ml-3 text-xl font-semibold text-gray-800">Terrenos Premium</span>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="#inicio" class="text-gray-800 hover:text-green-700">Inicio</a>
-                    <a href="#galeria" class="text-gray-800 hover:text-green-700">Galería</a>
-                    <a href="#videos" class="text-gray-800 hover:text-green-700">Videos</a>
-                    <a href="#caracteristicas" class="text-gray-800 hover:text-green-700">Características</a>
-                    <a href="#contacto" class="text-gray-800 hover:text-green-700">Contacto</a>
-                </div>
-                <div class="md:hidden">
-                    <button class="text-gray-800 focus:outline-none">
-                        <i class="fas fa-bars text-xl"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </header>
+   <!-- Header/Navbar -->
+<!-- Header/Navbar -->
+<header style="height:90px; background:#fff; box-shadow:0 2px 4px rgba(0,0,0,0.1); position:sticky; top:0; z-index:50;">
+  <div style="max-width:1200px; margin:0 auto; padding:0 1.5rem; height:100%; display:flex; align-items:center; justify-content:space-between;">
+    <div style="display:flex; align-items:center;">
+      <img
+        src="https://i.ibb.co/sdwNT8SZ/image-removebg-preview-1.png"
+        alt="Logo"
+        style="width:48px; height:48px; border-radius:50%; display:block;"
+      >
+      <span style="margin-left:12px; font-weight:600; font-size:1.25rem; color:#2d3748;">
+        Terrenos Premium
+      </span>
+    </div>
+    <nav style="display:flex; gap:2rem;">
+      <a href="#inicio" style="color:#2d3748; text-decoration:none;">Inicio</a>
+      <a href="#galeria" style="color:#2d3748; text-decoration:none;">Galería</a>
+      <a href="#videos" style="color:#2d3748; text-decoration:none;">Videos</a>
+      <a href="#caracteristicas" style="color:#2d3748; text-decoration:none;">Características</a>
+      <a href="#contacto" style="color:#2d3748; text-decoration:none;">Contacto</a>
+    </nav>
+    <div class="md:hidden">
+      <button style="color:#2d3748; background:none; border:none; font-size:1.25rem; cursor:pointer;">
+        &#9776;
+      </button>
+    </div>
+  </div>
+</header>
+
 
 <!-- Hero Section -->
 <section id="inicio" class="relative py-32 text-white">
@@ -157,7 +163,7 @@
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Imagen 1 -->
                 <div class="overflow-hidden rounded-lg shadow-lg gallery-img">
-                    <img src="https://i.ibb.co/TqTw2SJr/Screenshot-2025-07-03-174915.png" alt="Vista frontal del terreno mostrando la entrada principal" class="w-full h-64 object-cover">
+                    <img src="https://i.ibb.co/SXBxjDs4/Sin-t-tulo.jpg" alt="Vista frontal del terreno mostrando la entrada principal" class="w-full h-64 object-cover">
                 </div>
                 
                 <!-- Imagen 2 -->
@@ -193,23 +199,74 @@
   <div class="container mx-auto px-6">
     <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Recorrido Virtual</h2>
 
-    <div class="max-w-4xl mx-auto">
-      <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo</h3>
-      <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
-        <iframe 
-          width="100%" 
-          height="500" 
-          src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
-          title="Recorrido Virtual" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          referrerpolicy="strict-origin-when-cross-origin" 
-          allowfullscreen>
-        </iframe>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo 1</h3>
+        <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            width="100%" 
+            height="300" 
+            src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
+            title="Recorrido Virtual 1" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo 2</h3>
+        <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            width="100%" 
+            height="300" 
+            src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
+            title="Recorrido Virtual 2" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo 3</h3>
+        <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            width="100%" 
+            height="300" 
+            src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
+            title="Recorrido Virtual 3" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="text-xl font-semibold mb-4 text-center">Tour Completo 4</h3>
+        <div class="video-wrapper rounded-lg overflow-hidden shadow-lg">
+          <iframe 
+            width="100%" 
+            height="300" 
+            src="https://www.youtube.com/embed/CPC3jdG9VNs?si=uwGF2oZnZu6y2C2U" 
+            title="Recorrido Virtual 4" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            referrerpolicy="strict-origin-when-cross-origin" 
+            allowfullscreen>
+          </iframe>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
 
 
     <!-- Features Section -->
@@ -249,7 +306,12 @@
                 <div>
                     <h3 class="text-2xl font-semibold mb-6">Ubicación Privilegiada</h3>
                     <div class="mb-6">
-                        <img src="https://placehold.co/800x400?text=Mapa+de+Ubicación" alt="Mapa mostrando la ubicación estratégica del terreno cerca de zonas comerciales y vías principales" class="w-full rounded-lg shadow">
+                        <!-- Image Embed Section -->
+<section class="bg-gray-100 py-8">
+    <div class="container mx-auto px-6 flex justify-center">
+        <img src="https://i.ibb.co/nswMtRQ1/image.png" alt="Embedded Image" class="rounded-xl shadow-lg max-w-full h-auto">
+    </div>
+</section>
                     </div>
                     <ul class="space-y-4">
                         <li class="flex items-start">
@@ -260,13 +322,10 @@
                             <i class="fas fa-road text-green-600 mt-1 mr-3"></i>
                             <span>Acceso directo al terreno</span>
                         </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-school text-green-600 mt-1 mr-3"></i>
-                            <span>Zona escolar de alto prestigio cercana</span>
-                        </li>
+ 
                         <li class="flex items-start">
                             <i class="fas fa-store text-green-600 mt-1 mr-3"></i>
-                            <span>Área altamente turística</span>
+                            <span>Área altamente turística, deportes extremos y acuáticos</span>
                         </li>
                     </ul>
                 </div>
@@ -277,74 +336,35 @@
                 <h3 class="text-2xl font-semibold mb-4 text-center">Oportunidad de Inversión</h3>
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
                     <div>
-                        <div class="text-4xl font-bold text-green-600 mb-2">$950,000</div>
+                        <div class="text-4xl font-bold text-green-600 mb-2">€ 100,000</div>
                         <div class="text-gray-500">Precio de venta</div>
-                    </div>
-                    <div>
-                        <div class="text-4xl font-bold text-green-600 mb-2">$190/m²</div>
-                        <div class="text-gray-500">Precio por metro cuadrado</div>
-                    </div>
+                    </div
                     <div>
                         <div class="text-4xl font-bold text-green-600 mb-2">15%</div>
                         <div class="text-gray-500">Menor al precio de zona</div>
                     </div>
                 </div>
-                <p class="mt-6 text-center text-gray-600">Precio negociable para compradores serios. Posibilidad de financiamiento.</p>
+                <p class="mt-6 text-gray-600 text-center">
+                    Este terreno representa una excelente oportunidad de inversión en una de las zonas más prometedoras de Antioquia. Con un precio competitivo y una ubicación estratégica, es ideal para desarrollo residencial o turístico.
+                
             </div>
         </div>
     </section>
 
-    <!-- Contact Form -->
-    <section id="contacto" class="py-16 bg-white">
-        <div class="container mx-auto px-6 max-w-4xl">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">¿Interesado? Contáctenos</h2>
-            
-            <form class="contact-form">
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    <div>
-                        <label for="nombre" class="block text-gray-700 mb-2">Nombre completo</label>
-                        <input type="text" id="nombre" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-green-500" placeholder="Tu nombre">
-                    </div>
-                    <div>
-                        <label for="email" class="block text-gray-700 mb-2">Correo electrónico</label>
-                        <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-green-500" placeholder="tu@email.com">
-                    </div>
-                    <div>
-                        <label for="telefono" class="block text-gray-700 mb-2">Teléfono</label>
-                        <input type="tel" id="telefono" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-green-500" placeholder="+52 55 1234 5678">
-                    </div>
-                    <div>
-                        <label for="interes" class="block text-gray-700 mb-2">Tipo de interés</label>
-                        <select id="interes" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-green-500">
-                            <option value="">Seleccione una opción</option>
-                            <option value="compra">Compra directa</option>
-                            <option value="financiamiento">Financiamiento</option>
-                            <option value="info">Solo información</option>
-                            <option value="otro">Otro</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="mt-6">
-                    <label for="mensaje" class="block text-gray-700 mb-2">Mensaje</label>
-                    <textarea id="mensaje" rows="4" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-1 focus:ring-green-500" placeholder="Escribe tu mensaje aquí..."></textarea>
-                </div>
-                <div class="mt-8 text-center">
-                    <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-10 py-3 rounded-lg font-semibold transition duration-300">Enviar Solicitud</button>
-                </div>
-            </form>
-        </div>
-    </section>
 
-    <!-- Map Section -->
-    <section class="bg-gray-100 py-8">
-        <div class="container mx-auto px-6">
-            <div class="rounded-xl overflow-hidden shadow-lg">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1dplaceholder" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-    </section>
 
-    <!-- Footer -->
+<!-- Contact Button Section -->
+<section id="contacto" class="py-16 bg-white">
+    <div class="container mx-auto px-6 max-w-4xl text-center">
+        <h2 class="text-3xl font-bold mb-12 text-gray-800">¿Interesado? Contáctenos</h2>
+        <a href="https://api.whatsapp.com/send/?phone=573202826116&text=Estoy+interesado+en+su+terreno+y+quiero+saber+m%C3%A1s+informaci%C3%B3n&type=phone_number&app_absent=0" target="_blank" class="inline-flex items-center bg-green-600 hover:bg-green-700 text-white px-10 py-4 rounded-lg font-semibold transition duration-300">
+            <svg class="w-6 h-6 mr-2 fill-current" viewBox="0 0 24 24"><path d="M20.52 3.48A11.76 11.76 0 0 0 12 0C5.37 0 .02 5.35.02 11.96c0 2.1.55 4.17 1.61 5.98L0 24l6.27-1.64a11.95 11.95 0 0 0 5.72 1.44h.01c6.62 0 11.97-5.35 11.97-11.96 0-3.2-1.26-6.2-3.45-8.36zM12 21.56c-1.88 0-3.74-.51-5.35-1.48l-.38-.23-3.72.97.99-3.63-.25-.38a9.58 9.58 0 0 1-1.49-5.2C2.8 6.29 6.93 2.18 12 2.18c2.63 0 5.1 1.02 6.96 2.88a9.73 9.73 0 0 1 2.88 6.9c0 5.08-4.13 9.2-9.2 9.2zm5.3-7.19c-.29-.15-1.7-.84-1.97-.93-.26-.1-.45-.15-.64.15-.19.29-.74.93-.9 1.12-.16.19-.33.21-.62.07-.29-.15-1.22-.45-2.33-1.43-.86-.76-1.44-1.7-1.61-1.99-.17-.29-.02-.44.13-.59.13-.12.29-.33.43-.49.14-.17.19-.29.29-.48.1-.19.05-.36-.03-.51-.08-.15-.64-1.55-.88-2.12-.23-.55-.47-.47-.64-.47l-.54-.01c-.18 0-.47.07-.71.36-.24.29-.94.92-.94 2.23 0 1.31.96 2.58 1.09 2.75.13.17 1.88 2.88 4.56 4.04.64.28 1.14.44 1.53.56.64.2 1.22.17 1.68.1.51-.08 1.7-.69 1.93-1.36.24-.67.24-1.24.17-1.36-.07-.12-.26-.2-.54-.35z"/></svg>
+            Contactar por WhatsApp
+        </a>
+    </div>
+</section>
+
+<!--
     <footer class="bg-gray-800 text-white py-12">
         <div class="container mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -397,10 +417,10 @@
             </div>
         </div>
     </footer>
-
+-->
     <!-- Floating WhatsApp Button -->
     <div class="fixed bottom-6 right-6 z-50">
-        <a href="https://wa.me/525512345678" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center" style="width: 60px; height: 60px;">
+        <a href="https://api.whatsapp.com/send/?phone=573202826116&text=Estoy+interesado+en+su+terreno+y+quiero+saber+m%C3%A1s+informaci%C3%B3n&type=phone_number&app_absent=0" class="bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg flex items-center justify-center" style="width: 60px; height: 60px;">
             <i class="fab fa-whatsapp text-2xl"></i>
         </a>
     </div>
